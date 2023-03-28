@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_9/main2.dart';
+
+
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +27,10 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const HelloWorldPage(),
+      home: const SeconPage(),
+      //! 1 chi page ni ishlatish uchun HelloWorldpage dib yozasila 
+      //! 2 chisini ishlatish uchun SeconPage 
+      //! albatta run qilish esdan chiqmasin 
       debugShowCheckedModeBanner: false,
     );
   }
